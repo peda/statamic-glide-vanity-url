@@ -1,6 +1,6 @@
 name: GlideVanityUrl
 version: "1.0"
 description: Glide Vanity URLs
-url: -
+url: https://github.com/peda/statamic-glide-vanity-url
 developer: Peter Rainer
 developer_url: http://www.peterrainer.at/
