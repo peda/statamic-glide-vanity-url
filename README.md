@@ -1,5 +1,5 @@
 # GlideVantiyUrl by [Peter Rainer](http://peterrainer.at)
-## A Glide Vanity URL addon for Statamic CMS V2.x
+## A Glide Vanity URL addon for Statamic CMS V2.5+
 
 Glide by default does generate URLs like `/img/asset/bWFpbi9pbWcvYWJ1LWRoYWJpLWVsZWN0cm8tbWVjaGFuaWNhbC1jb21wYW55LWFyYWJlbC1oYWJ0b29yLmpwZw==?w=800&h=800&fit=crop&q=85` 
 
