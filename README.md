@@ -1,11 +1,11 @@
 # GlideVantiyUrl by [Peter Rainer](http://peterrainer.at)
 ## A Glide Vanity URL addon for Statamic CMS V2.x
 
-Glide by default does generate URLs like `/img/id/2dce8a2e-0442-4ac2-8b0c-19797c38fa35?w=140&h=140&fit=crop&s=ed1663629ceb59715b52cbb6975a4eb1` 
+Glide by default does generate URLs like `/img/asset/bWFpbi9pbWcvYWJ1LWRoYWJpLWVsZWN0cm8tbWVjaGFuaWNhbC1jb21wYW55LWFyYWJlbC1oYWJ0b29yLmpwZw==?w=800&h=800&fit=crop&q=85` 
 
-The route is defined as `/img/id/{id}/{filename?}` which means a filename can optionally be supplied after the ID
+The route is defined as `/img/asset/{container}/{path}/{filename?}` which means a filename can optionally be supplied after the path element
 
-As image file names are an important aspect of SEO (search engine optimization) you want to be preserved even when manipulating the image. Therefore we are injecting the filename after the ID to look something like `/img/id/2dce8a2e-0442-4ac2-8b0c-19797c38fa35/jedi-set.jpg?w=140&h=140&fit=crop&s=ed1663629ceb59715b52cbb6975a4eb1`
+As image file names are an important aspect of SEO (search engine optimization) you want to be preserved even when manipulating the image. Therefore we are injecting the filename after the ID to look something like `/img/asset/bWFpbi9pbWcvYWJ1LWRoYWJpLWVsZWN0cm8tbWVjaGFuaWNhbC1jb21wYW55LWFyYWJlbC1oYWJ0b29yLmpwZw==/abu-dhabi-electro-mechanical-company-arabel-habtoor.jpg?w=800&h=800&fit=crop&q=85`
 
 ### MIT License
 
