@@ -1,6 +1,6 @@
 <?php
 
-namespace Statamic\Addons\GlideDefaultQuality;
+namespace Statamic\Addons\GlideVanityUrl;
 
 use Statamic\Extend\ServiceProvider;
 use Statamic\API\File;
